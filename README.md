@@ -1,6 +1,6 @@
 # BanglaRQA
 
-This repository contains the official release of the dataset "BanglaRQA" and implemented model codes of the paper titled [**"BanglaRQA: A Benchmark Dataset for Under-resourced Bangla Language Reading Comprehension-based Question Answering with Diverse Question-Answer Types"**](https://aclanthology.org/2022.findings-emnlp.186) accpeted in *Findings of EMNLP 2022*.
+This repository contains the official release of the dataset "BanglaRQA" and implemented model codes of the paper titled [**"BanglaRQA: A Benchmark Dataset for Under-resourced Bangla Language Reading Comprehension-based Question Answering with Diverse Question-Answer Types"**](https://aclanthology.org/2022.findings-emnlp.186) accpeted in *Findings of the Association for Computational Linguistics: EMNLP 2022*.
 
 
 ## Table of Contents
@@ -19,16 +19,16 @@ We have released the Bangla Question-Answering dataset 'BanglaRQA' introduced in
 
 ## Codes
 
-The codes for training and testing the models is provided.
+The code files for training and testing mBERT, mT5, BanglaBERT and BanglaT5 models are provided.
 
 ## Models
 
 The finetuned model checkpoints are available at [Huggingface model hub](https://huggingface.co/sartajekram).
 
-- [**finetuned-BanglaT5-for-BanglaRQA**](https://huggingface.co/csebuetnlp/amadermodel)
-- [**finetuned-mT5-for-BanglaRQA**](https://huggingface.co/csebuetnlp/amadermodel)
-- [**finetuned-BanglaBERT-for-BanglaRQA**](https://huggingface.co/csebuetnlp/amadermodel)
-- [**finetuned-mBERT-for-BanglaRQA**](https://huggingface.co/csebuetnlp/amadermodel)
+- [**finetuned-BanglaT5-for-BanglaRQA**](https://huggingface.co/sartajekram/amadermodel)
+- [**finetuned-mT5-for-BanglaRQA**](https://huggingface.co/sartajekram/amadermodel)
+- [**finetuned-BanglaBERT-for-BanglaRQA**](https://huggingface.co/sartajekram/amadermodel)
+- [**finetuned-mBERT-for-BanglaRQA**](https://huggingface.co/sartajekram/amadermodel)
 
 
 ## Results
@@ -37,10 +37,10 @@ Supervised fine-tuning on BanglaRQA for question-answering
 
 |     Model      |   EM/F1   |
 |----------------|-----------|
-|[mBERT](https://huggingface.co/bert-base-multilingual-cased) | 28.53/39.40 |
-|[BanglaBERT](https://huggingface.co/xlm-roberta-base) | 47.55/63.15  |        
-|[mT5](https://huggingface.co/xlm-roberta-large) | 53.52/68.83 |
-|[BanglaT5](https://huggingface.co/neuropark/sahajBERT) | **62.42/78.11** |
+|[mBERT](https://huggingface.co/sartajekram/amadermodel) | 28.53/39.40 |
+|[BanglaBERT](https://huggingface.co/sartajekram/amadermodel) | 47.55/63.15  |        
+|[mT5](https://huggingface.co/sartajekram/amadermodel) | 53.52/68.83 |
+|[BanglaT5](https://huggingface.co/sartajekram/amadermodel) | **62.42/78.11** |
 
 
 
