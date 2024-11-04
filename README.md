@@ -7,7 +7,6 @@ This repository contains the official release of the dataset "BanglaRQA" and imp
 
 - [Dataset](#dataset)
 - [Codes](#codes)
-- [Models](#models)
 - [Results](#results)
 - [License](#license)
 - [Citation](#citation)
@@ -21,26 +20,16 @@ We have released the Bangla Question-Answering dataset 'BanglaRQA' introduced in
 
 The code files for training and testing mBERT, mT5, BanglaBERT and BanglaT5 models are provided.
 
-## Models
-
-The finetuned model checkpoints are available at [Huggingface model hub](https://huggingface.co/sartajekram).
-
-- [**finetuned-BanglaT5-for-BanglaRQA**](https://huggingface.co/sartajekram/amadermodel)
-- [**finetuned-mT5-for-BanglaRQA**](https://huggingface.co/sartajekram/amadermodel)
-- [**finetuned-BanglaBERT-for-BanglaRQA**](https://huggingface.co/sartajekram/amadermodel)
-- [**finetuned-mBERT-for-BanglaRQA**](https://huggingface.co/sartajekram/amadermodel)
-
-
 ## Results
 
 Supervised fine-tuning on BanglaRQA for question-answering
 
 |     Model      |   EM/F1   |
 |----------------|-----------|
-|[mBERT](https://huggingface.co/sartajekram/amadermodel) | 28.53/39.40 |
-|[BanglaBERT](https://huggingface.co/sartajekram/amadermodel) | 47.55/63.15  |        
-|[mT5](https://huggingface.co/sartajekram/amadermodel) | 53.52/68.83 |
-|[BanglaT5](https://huggingface.co/sartajekram/amadermodel) | **62.42/78.11** |
+|mBERT | 28.53/39.40 |
+|BanglaBERT | 47.55/63.15  |        
+|mT5 | 53.52/68.83 |
+|BanglaT5 | **62.42/78.11** |
 
 
 
